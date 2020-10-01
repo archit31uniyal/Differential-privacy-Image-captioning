@@ -17,6 +17,9 @@ For further details, read the tensorflow blog [here](https://blog.tensorflow.org
 We have been able to achieve a privacy loss of 0.61. 
 Please use the checkpoints provided to load the weights of the model.
 
-## References
-We have taken the code from tensorflow-privacy tutorial notebook, but instead of using the tensorflow-privacy library we've designed our custom class for creating differential private optimizers.
+![**Result 1**](Result1.jpeg)
 
+![**Result 2**](Result2.jpeg)
+
+## References
+We have obtained the code from tensorflow-privacy tutorial notebook, but instead of using the tensorflow-privacy library we've designed our custom class for creating differentially private optimizers.
