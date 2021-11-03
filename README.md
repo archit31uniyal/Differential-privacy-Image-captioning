@@ -11,7 +11,7 @@ Since we have achieved great heights in successfully performing sequential tasks
 The project aims at introducing differential privacy to an image captioning model by adding noise to the optimization process. This leads to an increase in loss, which is an expected result.
 This loss is denoted by *ε*(epsilon) and is known as privacy loss budget. 
 Our aim is to reduce *ε* as much as possible.
-For further details, read the tensorflow blog [here](https://blog.tensorflow.org/2019/03/introducing-tensorflow-privacy-learning.html).
+For further details, please read the necessary blog [here](https://blog.tensorflow.org/2019/03/introducing-tensorflow-privacy-learning.html).
 
 ## Results:
 We have been able to achieve a privacy loss of 0.61. 
