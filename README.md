@@ -9,7 +9,7 @@ The dataset used in this project is the MS COCO dataset for image captioning whi
 Image captioning has been a key components of image search engines and the discovery of new and more accurate sequence2sequence models such as encoder-decoder architectures and transformers has led to an increase in highly efficient image captioning models and image search engines. 
 Since we have achieved great heights in successfully performing sequential tasks using deep learning, the task that comes to mind is how to make our models more secure and differentially private. Tensorflow came up with a library known as Tensorflow-privacy in March, 2019, which attracted more researchers and developers towards this field.
 The project aims at introducing differential privacy to an image captioning model by adding noise to the optimization process. This leads to an increase in loss, which is an expected result.
-This loss is denoted by *ε*(epsilon) and is known as privacy loss. 
+This loss is denoted by *ε*(epsilon) and is known as privacy loss budget. 
 Our aim is to reduce *ε* as much as possible.
 For further details, read the tensorflow blog [here](https://blog.tensorflow.org/2019/03/introducing-tensorflow-privacy-learning.html).
 
